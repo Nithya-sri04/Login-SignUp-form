@@ -1,0 +1,100 @@
+/* LoginSignUp.css */
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #2c3e50 0%, #4b79a1 50%, #2b5876 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .container {
+    background: white;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+  }
+  
+  .header .text {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .header .underline {
+    width: 50px;
+    height: 4px;
+    background: #4b79a1;
+    margin: 0 auto 20px auto;
+  }
+  
+  .inputs {
+    margin-bottom: 20px;
+  }
+  
+  .input {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .input img {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+  }
+  
+  .input input {
+    border: none;
+    outline: none;
+    width: 100%;
+    padding: 5px;
+  }
+  
+  .forgotPassword {
+    font-size: 14px;
+    color: #2c3e50;
+    margin-bottom: 20px;
+  }
+  
+  .forgotPassword span {
+    color: #4b79a1;
+    cursor: pointer;
+  }
+  
+  .submitContainer {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .submit {
+    background: #34495e;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 20px; /* Rounded edges */
+    cursor: pointer;
+    width: 48%;
+    text-align: center;
+    transition: background 0.3s;
+  }
+
+  .gray{
+    background:#EAEAEA;
+    color: #676767;
+  }
+  
+  .submit:not(:last-child) {
+    margin-right: 4%; /* Space between buttons */
+  }
+  
+  .submit:hover {
+    background: #87c5fb;
+  }
+  
